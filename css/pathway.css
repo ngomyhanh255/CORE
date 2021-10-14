@@ -28,7 +28,10 @@
       width: 80%; } }
   @media (max-width: 320px) {
     .content {
-      margin-left: 20px; } }
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 100%;
+      text-align: center; } }
 
 .can-access-content {
   margin-top: 60px;
@@ -47,7 +50,8 @@
       .can-access-content .can-access-list .can-access-item img {
         width: 100%;
         aspect-ratio: 298/212;
-        object-fit: cover; }
+        object-fit: cover;
+        border-radius: 8px; }
       .can-access-content .can-access-list .can-access-item .title {
         display: flex;
         align-items: flex-end;
@@ -160,11 +164,11 @@
           flex-direction: column;
           align-items: center; }
           .advantages .list-advantages .advantege-item .detail-advantage-item {
-            margin-left: 0; } }
+            margin-left: 0;
+            text-align: center; } }
 
 .pathway-community {
-  margin-top: 100px;
-  clear: right; }
+  margin-top: 100px; }
   .pathway-community .text-pathway {
     color: #6564DB;
     font-weight: bold;
@@ -191,11 +195,6 @@
         color: #6564DB;
         font-weight: bold;
         font-size: 24px; }
-  @media (max-width: 576px) {
-    .pathway-community .list-card {
-      justify-content: center; }
-      .pathway-community .list-card .card-item {
-        width: 80%; } }
   @media (max-width: 1024px) {
     .pathway-community {
       margin-left: 0px;
@@ -204,6 +203,14 @@
         margin-left: 70px; }
       .pathway-community .list-card {
         padding: 60px 70px 60px 70px; } }
+  @media (max-width: 576px) {
+    .pathway-community .list-card {
+      justify-content: center; }
+      .pathway-community .list-card .card-item {
+        width: 80%; } }
+  @media (max-width: 320px) {
+    .pathway-community .text-pathway {
+      align-items: center; } }
 
 .know-more {
   text-align: center;

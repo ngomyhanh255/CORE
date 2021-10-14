@@ -34,6 +34,9 @@
     }
     @media (max-width:  320px) {
         margin-left: 20px;
+        margin-right: 20px;
+        width: 100%;
+        text-align: center;
     }
 
 }
@@ -55,6 +58,7 @@
                 width: 100%;
                 aspect-ratio: 298/212;
                 object-fit: cover;
+                border-radius: 8px;
             }
             .title{
                 display: flex;
@@ -198,6 +202,7 @@
                 align-items: center;
                 .detail-advantage-item{
                     margin-left: 0;
+                    text-align: center;
                 }
             }
         }
@@ -205,7 +210,6 @@
 }
 .pathway-community{
     margin-top: 100px;
-    clear: right;
     .text-pathway{
         color: #6564DB;
         font-weight: bold;
@@ -237,14 +241,6 @@
             }
         }
     }
-    @media (max-width:  576px) {
-        .list-card{
-            justify-content: center;
-            .card-item{
-                width: 80%;
-            }
-        }
-     }
     @media (max-width:  1024px) {
         margin-left: 0px;
         margin-right: 0px;
@@ -255,6 +251,19 @@
             padding: 60px 70px 60px 70px;
         }
      }
+     @media (max-width: 576px) {
+        .list-card{
+            justify-content: center;
+            .card-item{
+                width: 80%;
+            }
+        }
+     }
+    @media (max-width: 320px){
+        .text-pathway{
+            align-items: center;
+        }
+    }
 }
 .know-more{
     text-align: center;
