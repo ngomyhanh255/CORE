@@ -1,0 +1,165 @@
+.container {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 150px; }
+  .container .container-contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 450px; }
+    .container .container-contact-us .contact-us {
+      width: 50%;
+      margin-right: 10px; }
+      .container .container-contact-us .contact-us .phone {
+        margin-bottom: 25px; }
+      .container .container-contact-us .contact-us .social .icon {
+        margin-top: -6px; }
+        .container .container-contact-us .contact-us .social .icon a {
+          padding-left: 8px; }
+      .container .container-contact-us .contact-us .address {
+        margin-top: 20px;
+        width: 85%; }
+      @media (max-width: 1024px) {
+        .container .container-contact-us .contact-us {
+          width: 100%; } }
+    .container .container-contact-us .vertical {
+      width: 1px;
+      height: 340px;
+      border-left: 1px solid #ddddd9; }
+      @media (max-width: 1024px) {
+        .container .container-contact-us .vertical {
+          display: none; } }
+    .container .container-contact-us .email-form {
+      width: calc(50% - 68px);
+      padding-left: 55px; }
+      .container .container-contact-us .email-form .description {
+        text-align: justify; }
+      .container .container-contact-us .email-form .form .form-row {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px; }
+        .container .container-contact-us .email-form .form .form-row label {
+          width: 70px; }
+        .container .container-contact-us .email-form .form .form-row input {
+          width: calc(100% - 70px);
+          background-color: #ddddd9;
+          border: none;
+          height: 35px;
+          outline: none;
+          resize: none; }
+        .container .container-contact-us .email-form .form .form-row textarea {
+          width: calc(100% - 70px);
+          background-color: #ddddd9;
+          border: none;
+          height: 90px;
+          outline: none;
+          resize: none; }
+        @media (max-width: 320px) {
+          .container .container-contact-us .email-form .form .form-row {
+            display: block; }
+            .container .container-contact-us .email-form .form .form-row label {
+              width: 100%; }
+            .container .container-contact-us .email-form .form .form-row input {
+              width: 100%; }
+            .container .container-contact-us .email-form .form .form-row textarea {
+              width: 100%; } }
+      .container .container-contact-us .email-form .form button {
+        margin-top: 10px;
+        float: right;
+        background-color: #6564DB;
+        color: white;
+        border-radius: 8px;
+        padding: 8px 16px;
+        border: none; }
+      .container .container-contact-us .email-form .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px; }
+        .container .container-contact-us .email-form .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field label {
+          width: 70px;
+          font-weight: normal; }
+        .container .container-contact-us .email-form .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input {
+          width: calc(100% - 70px);
+          background-color: #ddddd9;
+          border: none;
+          height: 35px;
+          outline: none;
+          resize: none; }
+        .container .container-contact-us .email-form .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea {
+          width: calc(100% - 70px);
+          background-color: #ddddd9;
+          border: none;
+          height: 90px;
+          outline: none;
+          resize: none; }
+        @media (max-width: 320px) {
+          .container .container-contact-us .email-form .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field {
+            display: block; }
+            .container .container-contact-us .email-form .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field label {
+              width: 100%; }
+            .container .container-contact-us .email-form .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field input {
+              width: 100%; }
+            .container .container-contact-us .email-form .wpforms-container .wpforms-form .wpforms-field-container .wpforms-field textarea {
+              width: 100%; } }
+      .container .container-contact-us .email-form .wpforms-container .wpforms-form .wpforms-submit-container button {
+        margin-top: 10px;
+        float: right;
+        background-color: #6564DB;
+        color: white;
+        border-radius: 8px;
+        padding: 8px 16px;
+        border: none; }
+      @media (max-width: 1024px) {
+        .container .container-contact-us .email-form {
+          width: 100%;
+          padding-left: 0; } }
+    .container .container-contact-us .main-text {
+      color: #6564DB;
+      font-size: 30px;
+      margin-bottom: 40px;
+      margin-top: 0px;
+      font-weight: bold; }
+    @media (max-width: 1024px) {
+      .container .container-contact-us {
+        margin-left: 50px;
+        margin-right: 50px; }
+        .container .container-contact-us .contact-us {
+          margin-bottom: 50px; } }
+  .container .image {
+    display: flex; }
+    .container .image .big-image {
+      position: absolute;
+      width: 40%;
+      left: 50px;
+      bottom: 100px; }
+      .container .image .big-image img {
+        width: 80%;
+        min-width: 420px;
+        aspect-ratio: 1;
+        object-fit: cover;
+        border-radius: 50%;
+        z-index: -999; }
+    .container .image .small-image {
+      width: 20%;
+      position: absolute;
+      left: calc(35% + 50px);
+      bottom: 0px; }
+      .container .image .small-image img {
+        width: 100%;
+        min-width: 200px;
+        aspect-ratio: 1;
+        object-fit: cover;
+        border-radius: 50%; }
+    @media (max-width: 1024px) {
+      .container .image .big-image {
+        left: 0px;
+        opacity: 0.5;
+        z-index: -9999;
+        top: 400px; }
+      .container .image .small-image {
+        display: none; } }
+    @media (max-width: 320px) {
+      .container .image .small-image {
+        display: none; } }
