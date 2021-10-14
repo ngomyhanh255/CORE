@@ -1,18 +1,25 @@
 .pathway-banner{
-    width: 100%;
     margin-bottom: 70px;
-    img{
+    position: relative;
+    .background{
         width: 100%;
-        height: 100%;
         object-fit: cover;
+    }
+    .logo{
+        position: absolute;
+        width: 50%;
+        aspect-ratio: 714/92;
+        top: 15%;
+        left: 8%;
     }
 }
 .content{
     margin-left: 150px;
     p{
-        width: 25%;
+        width: 40%;
         color: #6564DB;
         font-weight: bold;
+        font-size: 24px;
     }
     @media (max-width:  1024px) {
         margin-left: 70px;
@@ -43,12 +50,11 @@
         padding-bottom: 60px;
         .can-access-item{
             padding: 20px;
-            width: calc(30.33% - 20px);
+            width: calc(33.33% - 40px);
             img{
                 width: 100%;
-                aspect-ratio: 1;
+                aspect-ratio: 298/212;
                 object-fit: cover;
-                border-radius: 10px;
             }
             .title{
                 display: flex;
@@ -66,7 +72,8 @@
                     font-weight: bold;
                     margin-left: 10px;
                     padding-bottom: 4px;
-                    height: fit-content;        
+                    height: fit-content;    
+                    font-size: 24px;    
                 }
             }
             .description{
@@ -99,7 +106,6 @@
     margin-bottom: 100px;
     .advantages-above{
         display: flex;
-        position: relative;
         width: 100%;
         padding-top: 140px;
     }
@@ -108,7 +114,7 @@
         position: relative;
         width: 100%;
         margin-top: 100px;
-        padding-bottom: 160px;
+        padding-bottom: 100px;
         .list-advantages-bottom{
             margin-top: 100px;
         }
@@ -122,15 +128,15 @@
             align-items: center;
             margin-top: 35px;
             img{
-                width: 80px;
-                height: 80px;
+                width: 100px;
+                height: 100px;
             }
             .detail-advantage-item{
                 margin-left: 20px;
                 .name-detail-advantage-item{
                     color: #6564DB;
                     font-weight: bold;
-                    font-size: 21px;
+                    font-size: 24px;
                     margin-bottom: -10px;
                 }
             }
@@ -140,78 +146,19 @@
     .right-image{
         width: 50%;
         img{
-            position: absolute;
-            top: 0;
-            right: -15%;
-            width: 45%;
-            aspect-ratio: 1;
-            object-fit: cover;
-            border-radius: 50%;
-            z-index: -999;
+            width: 100%;
+            aspect-ratio: 1562/1703;
+            float: right;
         }
-        .circle-1{
-            position: absolute;
-            background: #b0bad787;
-            border-radius: 50%;
-            width: 14%;
-            aspect-ratio: 1;
-            right: 18%;
-            top: 12%;
-            z-index: -9999;
-        }
-        .circle-2{
-            position: absolute;
-            background: #b0bad787;
-            border-radius: 50%;
-            width: 30%;
-            aspect-ratio: 1;
-            right: 12%;
-            top: 50%;
-            z-index: -9999;
-        }
-        .circle-3{
-            position: absolute;
-            background: #b0bad787;
-            border-radius: 50%;
-            width: 14%;
-            aspect-ratio: 1;
-            right: 30%;
-            top: 90%;
-            z-index: -9999;
-        }
+       
     }
     
     .left-image{
         width: 50%;
         img{
-            position: absolute;
-            width: 45%;
-            aspect-ratio: 1;
-            object-fit: cover;
-            border-radius: 50%;
-            left: -12%;
-            top: 0;
-            z-index: -999;
-        }
-        .circle-2{
-            position: absolute;
-            background: #b0bad787;
-            border-radius: 50%;
-            width: 30%;
-            aspect-ratio: 1;
-            left: 4%;
-            top: 50%;
-            z-index: -9999;
-        }
-        .circle-3{
-            position: absolute;
-            background: #b0bad787;
-            border-radius: 50%;
-            width: 14%;
-            aspect-ratio: 1;
-            left: 27%;
-            top: 72%;
-            z-index: -9999;
+           width: 100%;
+           aspect-ratio: 747/852;
+           float: left;
         }
     }
     @media (max-width:  1024px) {
@@ -286,6 +233,7 @@
                 text-align: center;
                 color: #6564DB;
                 font-weight: bold;
+                font-size: 24px;
             }
         }
     }
@@ -313,15 +261,18 @@
     margin-top: 100px;
     margin-bottom: 100px;
     button{
-        background-color: rgb(25, 158, 136);
+        background-color: #6FC2B0;
         color: white;
-        border-radius: 8px;
+        border-radius: 11px;
         padding: 10px 20px;
-        border: none;        
+        border: none;    
+        font-size: 24px;
+        font-weight: bold; 
+        height: 76px;   
     }
     p{
         font-weight: bold;
-        font-size: 20px;
+        font-size: 36px;
     }
     @media (max-width:380px){
         button{

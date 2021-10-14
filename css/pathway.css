@@ -1,17 +1,23 @@
 .pathway-banner {
-  width: 100%;
-  margin-bottom: 70px; }
-  .pathway-banner img {
+  margin-bottom: 70px;
+  position: relative; }
+  .pathway-banner .background {
     width: 100%;
-    height: 100%;
     object-fit: cover; }
+  .pathway-banner .logo {
+    position: absolute;
+    width: 50%;
+    aspect-ratio: 714/92;
+    top: 15%;
+    left: 8%; }
 
 .content {
   margin-left: 150px; }
   .content p {
-    width: 25%;
+    width: 40%;
     color: #6564DB;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 24px; }
   @media (max-width: 1024px) {
     .content {
       margin-left: 70px; }
@@ -37,12 +43,11 @@
     padding-bottom: 60px; }
     .can-access-content .can-access-list .can-access-item {
       padding: 20px;
-      width: calc(30.33% - 20px); }
+      width: calc(33.33% - 40px); }
       .can-access-content .can-access-list .can-access-item img {
         width: 100%;
-        aspect-ratio: 1;
-        object-fit: cover;
-        border-radius: 10px; }
+        aspect-ratio: 298/212;
+        object-fit: cover; }
       .can-access-content .can-access-list .can-access-item .title {
         display: flex;
         align-items: flex-end;
@@ -58,7 +63,8 @@
           font-weight: bold;
           margin-left: 10px;
           padding-bottom: 4px;
-          height: fit-content; }
+          height: fit-content;
+          font-size: 24px; }
       .can-access-content .can-access-list .can-access-item .description {
         padding-left: 10px;
         margin-top: 10px; }
@@ -83,7 +89,6 @@
   margin-bottom: 100px; }
   .advantages .advantages-above {
     display: flex;
-    position: relative;
     width: 100%;
     padding-top: 140px; }
   .advantages .advantages-bottom {
@@ -91,7 +96,7 @@
     position: relative;
     width: 100%;
     margin-top: 100px;
-    padding-bottom: 160px; }
+    padding-bottom: 100px; }
     .advantages .advantages-bottom .list-advantages-bottom {
       margin-top: 100px; }
   .advantages .list-advantages {
@@ -103,82 +108,27 @@
       align-items: center;
       margin-top: 35px; }
       .advantages .list-advantages .advantege-item img {
-        width: 80px;
-        height: 80px; }
+        width: 100px;
+        height: 100px; }
       .advantages .list-advantages .advantege-item .detail-advantage-item {
         margin-left: 20px; }
         .advantages .list-advantages .advantege-item .detail-advantage-item .name-detail-advantage-item {
           color: #6564DB;
           font-weight: bold;
-          font-size: 21px;
+          font-size: 24px;
           margin-bottom: -10px; }
   .advantages .right-image {
     width: 50%; }
     .advantages .right-image img {
-      position: absolute;
-      top: 0;
-      right: -15%;
-      width: 45%;
-      aspect-ratio: 1;
-      object-fit: cover;
-      border-radius: 50%;
-      z-index: -999; }
-    .advantages .right-image .circle-1 {
-      position: absolute;
-      background: #b0bad787;
-      border-radius: 50%;
-      width: 14%;
-      aspect-ratio: 1;
-      right: 18%;
-      top: 12%;
-      z-index: -9999; }
-    .advantages .right-image .circle-2 {
-      position: absolute;
-      background: #b0bad787;
-      border-radius: 50%;
-      width: 30%;
-      aspect-ratio: 1;
-      right: 12%;
-      top: 50%;
-      z-index: -9999; }
-    .advantages .right-image .circle-3 {
-      position: absolute;
-      background: #b0bad787;
-      border-radius: 50%;
-      width: 14%;
-      aspect-ratio: 1;
-      right: 30%;
-      top: 90%;
-      z-index: -9999; }
+      width: 100%;
+      aspect-ratio: 1562/1703;
+      float: right; }
   .advantages .left-image {
     width: 50%; }
     .advantages .left-image img {
-      position: absolute;
-      width: 45%;
-      aspect-ratio: 1;
-      object-fit: cover;
-      border-radius: 50%;
-      left: -12%;
-      top: 0;
-      z-index: -999; }
-    .advantages .left-image .circle-2 {
-      position: absolute;
-      background: #b0bad787;
-      border-radius: 50%;
-      width: 30%;
-      aspect-ratio: 1;
-      left: 4%;
-      top: 50%;
-      z-index: -9999; }
-    .advantages .left-image .circle-3 {
-      position: absolute;
-      background: #b0bad787;
-      border-radius: 50%;
-      width: 14%;
-      aspect-ratio: 1;
-      left: 27%;
-      top: 72%;
-      z-index: -9999; }
+      width: 100%;
+      aspect-ratio: 747/852;
+      float: left; }
   @media (max-width: 1024px) {
     .advantages {
       margin-left: 70px;
@@ -239,7 +189,8 @@
       .pathway-community .list-card .card-item p {
         text-align: center;
         color: #6564DB;
-        font-weight: bold; }
+        font-weight: bold;
+        font-size: 24px; }
   @media (max-width: 576px) {
     .pathway-community .list-card {
       justify-content: center; }
@@ -259,14 +210,17 @@
   margin-top: 100px;
   margin-bottom: 100px; }
   .know-more button {
-    background-color: #199e88;
+    background-color: #6FC2B0;
     color: white;
-    border-radius: 8px;
+    border-radius: 11px;
     padding: 10px 20px;
-    border: none; }
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    height: 76px; }
   .know-more p {
     font-weight: bold;
-    font-size: 20px; }
+    font-size: 36px; }
   @media (max-width: 380px) {
     .know-more button {
       margin-bottom: 10px;
