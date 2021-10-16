@@ -1,222 +1,40 @@
-.container{
-    position: relative;
-    min-height: 100vh;
-    padding-top: 150px;
-    .container-contact-us{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        margin-left: 20%;
-        margin-right: 20%;
-        padding-bottom: 450px;
-        .contact-us{
-            width: 50%;
-            margin-right: 10px;
-            .phone{
-                margin-bottom: 25px;
-            }
-            .social{
-                .icon{
-                    margin-top: -6px;
-                    a{
-                        padding-left:8px;
-                    }
-                }
-            }
-            .address{
-                margin-top: 20px;
-                width: 85%;
-            }
-            @media (max-width:  1024px) {
-                width: 100%;
-             }
-        }
-        .vertical{
-            width: 1px;
-            height: 340px;
-            border-left: 1px solid #ddddd9;
-            @media (max-width:  1024px) {
-               display: none;
-             }
-        }
-        .email-form{
-            width: calc(50% - 68px);
-            padding-left: 55px;
-            .description{
-                text-align: justify; 
-            }
-            .form{
-                .form-row{
-                    display: flex;
-                    justify-content: space-between;
-                    padding-bottom: 10px;
-                    label{
-                        width: 70px;
-                    }
-                    input{
-                        width: calc(100% - 70px);
-                        background-color: #ddddd9;
-                        border: none;
-                        height: 35px;
-                        outline: none;
-                        resize: none;
-                    }
-                    textarea{
-                        width: calc(100% - 70px);
-                        background-color: #ddddd9;
-                        border: none;
-                        height: 90px;
-                        outline: none;
-                        resize: none;
-                    }
-                @media (max-width:  320px) {
-                    display: block;
-                    label{
-                        width: 100%;
-                    }
-                    input{
-                        width: 100%;
-                    }
-                    textarea{
-                        width: 100%;
-                    }
-                }
-                    
-                }
-                button{
-                    margin-top: 10px;
-                    float: right;
-                    background-color: #6564DB;
-                    color: white;
-                    border-radius: 8px;
-                    padding: 8px 16px;
-                    border: none;
-                }
-            }
-            .wpforms-container{
-                .wpforms-form{
-                    .wpforms-field-container{
-                        .wpforms-field{
-                            display: flex;
-                            justify-content: space-between;
-                            padding-bottom: 10px;
-                            label{
-                                width: 70px;
-                                font-weight: normal;
-                            }
-                            input{
-                                width: calc(100% - 70px);
-                                background-color: #ddddd9;
-                                border: none;
-                                height: 35px;
-                                outline: none;
-                                resize: none;
-                            }
-                            textarea{
-                                width: calc(100% - 70px);
-                                background-color: #ddddd9;
-                                border: none;
-                                height: 90px;
-                                outline: none;
-                                resize: none;
-                            }
-                            @media (max-width:  320px) {
-                                display: block;
-                                label{
-                                    width: 100%;
-                                }
-                                input{
-                                    width: 100%;
-                                }
-                                textarea{
-                                    width: 100%;
-                                }
-                            }
-                        }
-                    }
-                    .wpforms-submit-container{
-                        button{
-                            margin-top: 10px;
-                            float: right;
-                            background-color: #6564DB;
-                            color: white;
-                            border-radius: 8px;
-                            padding: 8px 16px;
-                            border: none;
-                        }
-                    }
-                }
-            }
-            @media (max-width:  1024px) {
-                width: 100%;
-                padding-left: 0;
-             }
-        }
-        .main-text{
-            color: #6564DB;
-            font-size: 30px;
-            margin-bottom: 40px;
-            margin-top: 0px;
-            font-weight: bold;
-        }
-        @media (max-width:  1024px) {
-            margin-left: 50px;
-            margin-right: 50px;
-            .contact-us{
-                margin-bottom: 50px;
-            }
-         }
-
-    }
-    .image{
-        display: flex;
-        .big-image{
-            position: absolute;
-            width: 40%;
-            left: 50px;
-            bottom: 100px;
-            img{
-                width: 80%;
-                min-width: 420px;
-                aspect-ratio: 1;
-                object-fit: cover;
-                border-radius: 50%;
-                z-index: -999;
-            }
-        }
-        .small-image{
-            width: 20%;
-            position: absolute;
-            left: calc(35% + 50px);
-            bottom: 0px;
-            img{
-                width: 100%;
-                min-width: 200px;
-                aspect-ratio: 1;
-                object-fit: cover;
-                border-radius: 50%;
-            }
-        }
-        @media (max-width:  1024px) {
-            .big-image{
-                 left: 0px;
-                 opacity: 0.5;
-                 z-index: -9999;
-                 top: 400px;
-            }
-            .small-image{
-                 display: none;
-            }
-         }
-        @media (max-width:  320px) {
-            .small-image{
-                display: none;
-            }
-        }
-        
-    }
-
-}
-
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href="./../../css/contact-us.css" />
+    <link rel="stylesheet" type = "text/css" href="./../../css/style.css" />
+    <title>Document</title> 
+    
+</head>
+<body>
+    
+   <div class="zone1">
+       <h3 class="Contractus">Contract us</h3>
+       <P>+44(0)28 9072 2044 <br>salle@coressytems.biz</P>
+       <p>socia media <br>
+       <img class="image1" src="https://tse1.mm.bing.net/th?id=OIP.QmG_1aRtsBCgHf9sgqcMRAHaHa&pid=Api&P=0&w=300&h=300" >
+       <img class="image2" src="https://tse1.mm.bing.net/th?id=OIP.SVb-flIK3vc0uIm7_QkfFAHaGB&pid=Api&P=0&w=201&h=164">
+       <img class="image3" src="https://tse4.mm.bing.net/th?id=OIP.r5KkI8tSgDDTMX9wbMXM-AHaHa&pid=Api&P=0&w=300&h=300" >
+       </p>
+       <p>Glebank, 720  Crumlin Road ,belfast, BT148AD, <br> N.Ireland</p>
+   </div>
+   
+   
+   
+   <div class="zone2">
+       <h3 class="EmailForm">Email Form</h3>
+       <p>if you prefer us to  you , leave your name, <br>email address and a mesage here. <br>We will reply to you witthin one business day</p>
+       <ul>
+            Name<input type="text"><br>
+            Email<input type="text"> <br>
+            Subject<input type="text"> <br>
+            Mesage<input type="text"> <br>
+            <button>submit</button>
+       </ul>
+    
+   </div> 
+</body>
+</html>
